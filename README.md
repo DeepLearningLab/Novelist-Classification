@@ -25,31 +25,28 @@ DLLab Day 2018 ハッカソン NLP編
 
 ファイルはこちらにあります。
 
-```
-https://github.com/tottokug/text-classification-with-deeplearning/tree/feature/1-dllab-20180621/Data
-```
 
 ```
-Data
+data
 |
-|-- Raw
+|-- Test
 |   |
-|   |-- akiko.zip
-|   |-- akutagawa.zip
+|   |-- 0001.txt
+|   |-- 0002.txt
+|   |-- 0003.txt
 |   |-- ...
 |
-|-- Processed
+|-- Train
 |   |
-|   |-- 01_Unziped
-|   |-- 02_UTF-8
+|   |-- 0001.txt
+|   |-- 0002.txt
+|   |-- 0003.txt
 |   |-- ...
-|   |-- 06_split
-|       |
-|       |-- Test
-|       |-- Train
+|
+|-- master.csv
 ```
 
 - `data\Processed` 以下には学習用（`Train`）、評価用（`test`）と用途別にデータを分けるための2つのディレクトリが存在しています。
-
+- `master.csv` の中身は、ファイル名と、対応する作家名が、カンマで区切られたものになっています。
 
 
