@@ -1,6 +1,11 @@
 DLLab Day 2018 ハッカソン NLP編
 ==============================
 
+| Version | Contributer | 
+| --- | --- |
+| Orignal | r.tokugami (https://github.com/tottokug/text-classification-with-deeplearning/tree/feature/1-dllab-20180621) |
+
+
 ## 問題
 
 作家の作成した文章があります。9名のうち6名を選択します。文章を1つ(句点から句点まで)入力しただけで、作家を判定するネットワークを作成してください。
@@ -48,5 +53,3 @@ data
 
 - `data\Processed` 以下には学習用（`Train`）、評価用（`test`）と用途別にデータを分けるための2つのディレクトリが存在しています。
 - `master.csv` の中身は、ファイル名と、対応する作家名が、カンマで区切られたものになっています。
-
-
